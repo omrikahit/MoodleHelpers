@@ -1,0 +1,110 @@
+.custom-css p,
+.custom-css ul,
+.custom-css ol,
+.custom-css li,
+.accordion-custom p,
+.accordion-custom ul,
+.accordion-custom ol,
+.accordion-custom li,
+.custom-content-css p,
+.custom-content-css ul,
+.custom-content-css ol,
+.custom-content-css li {
+    font-size: 16pt;
+}
+
+.custom-css h3, .accordion-custom h3 {
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.custom-css h1, .accordion-custom h1 {
+    font-size: 36pt;
+    font-weight: bold;
+margin-bottom: 25px;
+}
+
+.custom-css h2 {
+    font-size: 24pt;
+    font-weight: bold;
+}
+.accordion-custom h2, .custom-content-css h2 {
+    font-size: 32pt;
+    font-weight: bold;
+}
+.accordion-custom h2 button{
+    font-size: 18pt;
+}
+
+.custom-css img {
+    width: 70%;
+    height: auto;
+}
+
+.custom-css .header img {
+    width: 100%;
+}
+
+.custom-css .bg-primary,
+.custom-css .bg-info {
+    color: white;
+}
+
+.custom-css .cp_embed_wrapper {
+    margin-bottom: 35px;
+}
+
+.custom-css h2 {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    color: white;
+    line-height: 0;
+}
+
+.custom-css .header {
+    position: relative;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.custom-css pre code, .accordion-custom pre code, .custom-content-css pre code {
+    border: 1px solid #ddd;
+    border-left: 3px solid #0d6efd;
+    page-break-inside: avoid;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+    direction: ltr;
+    text-align: left;
+}
+.custom-css .container-iframe {
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top: 62.5%; /* 8:5 Aspect Ratio */
+  margin-bottom: 30px;
+}
+.custom-css .container-iframe-mobile{
+  width: 350px;
+}
+.custom-css .container-iframe-desktop{
+  width: 100%;
+}
+.custom-css .responsive-iframe {
+    border: 1px solid lightgray;
+    padding: 15px;
+    border-radius: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
